@@ -1,0 +1,130 @@
+#banner {
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(PageCover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-weight: 900;
+    border-radius: 60px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.btn-brand {
+    background-color: rgb(95, 143, 214);
+    color: #f9f9fa;
+    border: 2px solid rgb(243, 243, 243);
+}
+
+.btn-brand-hover {
+    background-color: transparent;
+    color: #0a0a0a;
+    border: 2px solid #fff;
+}
+
+section {
+    padding: 100px 0 ;
+}
+
+#about {
+    background-color: rgb(255, 255, 255);
+}
+
+#about .btn-brand {
+    background-color: rgb(241, 241, 241) !important;
+}
+
+#about .btn-brand {
+    background-color: rgb(128, 186, 252) !important; 
+}
+
+#about .row {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+#about h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: orange;
+}
+
+#about h3 {
+    color: yellow;
+}
+
+.eyy {
+    width: 40%;
+}
+
+#services h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: orange;
+}
+
+#services {
+    background-color: blue;
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+    border: 5px solid var(--border); /* border style */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.card:hover {
+    background-color: black;
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: floralwhite;
+}
+
+#cta {
+    height: 70vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(cta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section {
+    padding: 100px 0 ;
+}
+
+#abouts {
+    background-color: rgb(255, 255, 255);
+}
+
+#abouts .btn-brand {
+    background-color: rgb(241, 241, 241) !important;
+}
+
+#abouts .btn-brand {
+    background-color: rgb(128, 186, 252) !important; 
+}
+
+#abouts .row {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+#abouts h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: orange;
+}
+
+#abouts h3 {
+    color: yellow;
+}
